@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1c6a872-50cb-49d8-bf8b-f105009a2254" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-1/src/main/java/hs/springboot/kafka/study/Clip11Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-1/src/main/java/hs/springboot/kafka/study/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-2/src/main/java/study/Clip12Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-2/src/main/java/study/KafkaTopicConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/Clip13Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/configuration/KafkaTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/configuration/KafkaTopicConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/configuration/ReplyingKafkaTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/configuration/RoutingKafkaTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/consumer/ClipConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/clip1-3/src/main/java/study/producer/ClipProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/clip2-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/clip2-1/src/main/java/study/Clip21Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/clip2-1/src/main/java/study/service/ClipConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/clip2-1/src/main/java/study/service/KafkaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KoB9IBUehc5by5EU0Ty6LQHOgE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/hosuk/springboot-kafka-study/chapter1/clip1-3/src/main/java",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter1/clip1-3/src/main/java" />
+      <recent name="$PROJECT_DIR$/chapter1/clip1-2/src/main/java" />
+      <recent name="$PROJECT_DIR$/chapter2/clip2-1/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Clip13Application">
+    <configuration name="Clip11Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hs.springboot.kafka.study.Clip11Application" />
+      <module name="clip1-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hs.springboot.kafka.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clip12Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Clip12Application" />
+      <module name="clip1-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clip13Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Clip13Application" />
+      <module name="clip1-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clip21Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Clip21Application" />
+      <module name="clip2-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springboot-kafka-study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springboot-kafka-study" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Clip13Application" />
+        <item itemvalue="애플리케이션.Clip12Application" />
+        <item itemvalue="애플리케이션.Clip21Application" />
+        <item itemvalue="애플리케이션.Clip11Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f1c6a872-50cb-49d8-bf8b-f105009a2254" name="변경" comment="" />
+      <created>1674630903360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674630903360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
