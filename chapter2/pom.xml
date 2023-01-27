@@ -17,6 +17,8 @@
 
     <modules>
         <module>clip2-1</module>
+        <module>clip2-2</module>
+        <module>clip2-3</module>
     </modules>
 
     <properties>

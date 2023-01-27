@@ -53,29 +53,32 @@ public class KafkaManager {
         ConfigResource resource = new ConfigResource(ConfigResource.Type.TOPIC, "clip4-listener");
         Map<ConfigResource, Collection<AlterConfigOp>> ops = new HashMap<>();
 
-        // 변경
+        // SET (변경)
         // ops.put(resource,List.of(new AlterConfigOp(new ConfigEntry(TopicConfig.RETENTION_MS_CONFIG, "6000"), AlterConfigOp.OpType.SET)));
 
-        // 삭제? 초기화?
+        // DELETE (삭제) - Null 또는 Default 값으로 초기화 됨.
         ops.put(resource,List.of(new AlterConfigOp(new ConfigEntry(TopicConfig.RETENTION_MS_CONFIG, null), OpType.DELETE)));
 
         System.out.println("---- 토픽의 정보 변경 ----");
         adminClient.incrementalAlterConfigs(ops);
     }
 
-    public void deleteRecords() {
+    public void deleteRecords() throws ExecutionException, InterruptedException {
         TopicPartition tp = new TopicPartition("clip4-listener", 0);
         Map<TopicPartition, RecordsToDelete> target = new HashMap<>();
         target.put(tp, RecordsToDelete.beforeOffset(1));
+
         DeleteRecordsResult result = adminClient.deleteRecords(target);
         Map<TopicPartition, KafkaFuture<DeletedRecords>> topicPartitionKafkaFutureMap = result.lowWatermarks();
 
         System.out.println("---- 토픽의 레코드 삭제 ----");
         for (Entry<TopicPartition, KafkaFuture<DeletedRecords>> topicPartitionKafkaFutureEntry : topicPartitionKafkaFutureMap.entrySet()) {
             System.out.println(
-                    topicPartitionKafkaFutureEntry.getKey().topic() + ", " +
-                    topicPartitionKafkaFutureEntry.getKey().partition() + ", "  +
-                    topicPartitionKafkaFutureEntry.getValue());
+                    "topic="+topicPartitionKafkaFutureEntry.getKey().topic() + ", " +
+                    "partition="+topicPartitionKafkaFutureEntry.getKey().partition() + ", "  +
+                    "value="+topicPartitionKafkaFutureEntry.getValue() + ", " +
+                    "key="+topicPartitionKafkaFutureEntry.getKey()
+            );
         }
     }
 
@@ -94,7 +97,7 @@ public class KafkaManager {
         // The group is not empty.
         // adminClient.deleteConsumerGroups(List.of("clip4-animal-listener")).all().get();
 
-        adminClient.deleteConsumerGroups(List.of("clip4-container")).all().get();
+        adminClient.deleteConsumerGroups(List.of("groupId..","clip4-container")).all().get();
 
         // The group id does not exist.
         // 여러번 하면 존재하지 않음 오류발생
@@ -102,7 +105,8 @@ public class KafkaManager {
 
     public void findAllOffsets() throws ExecutionException, InterruptedException {
         Map<TopicPartition, OffsetSpec> target = new HashMap<>();
-        target.put(new TopicPartition("clip4-listener", 0), OffsetSpec.latest());
+//        target.put(new TopicPartition("clip4-listener", 0), OffsetSpec.latest());
+        target.put(new TopicPartition("clip1-listener", 0), OffsetSpec.latest());
         ListOffsetsResult listOffsetsResult = adminClient.listOffsets(target);
 
         for (TopicPartition topicPartition: target.keySet()
