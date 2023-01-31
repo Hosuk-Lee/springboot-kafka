@@ -1,12 +1,7 @@
 package study.configuration;
 
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
-
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,6 +20,9 @@ import org.springframework.retry.support.RetryTemplate;
 import org.springframework.retry.support.RetryTemplateBuilder;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import study.model.Animal;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Configuration
 public class KafkaJsonListenerContainerConfiguration

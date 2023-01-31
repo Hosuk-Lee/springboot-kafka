@@ -2,6 +2,7 @@ package study.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.validation.constraints.Max;
 
 public record Animal(String name, @Max(10) int age) {

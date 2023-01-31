@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Service;
 import study.model.Animal;
 
-    import javax.validation.Valid;
+import javax.validation.Valid;
 import java.util.Date;
 
 @Service
