@@ -21,5 +21,17 @@
     <file url="file://$PROJECT_DIR$/chapter2/clip2-4/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-create/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-create/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-list/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/operator/topic-list/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer/pub-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer/pub-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer/src/main/resources" charset="UTF-8" />
   </component>
 </project>

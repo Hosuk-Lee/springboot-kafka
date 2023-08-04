@@ -4,14 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hs.springboot.kafka.study</groupId>
-    <artifactId>clip1-2</artifactId>
+    <groupId>hs.springboot.kafka</groupId>
+    <artifactId>topic-create</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
+    <name>SB :: Kafka :: Topic-Create</name>
+
     <parent>
         <groupId>hs.springboot.kafka</groupId>
-        <artifactId>chapter1</artifactId>
+        <artifactId>operator</artifactId>
         <version>1.0</version>
     </parent>
 

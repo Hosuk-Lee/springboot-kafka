@@ -5,13 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hs.springboot.kafka.study</groupId>
-    <artifactId>clip1-2</artifactId>
+    <artifactId>topic-list</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <name>SB :: Kafka :: Topic-List</name>
 
     <parent>
         <groupId>hs.springboot.kafka</groupId>
-        <artifactId>chapter1</artifactId>
+        <artifactId>operator</artifactId>
         <version>1.0</version>
     </parent>
 

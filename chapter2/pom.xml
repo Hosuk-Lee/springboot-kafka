@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hs.springboot.kafka.study</groupId>
+    <groupId>hs.springboot.kafka</groupId>
     <packaging>pom</packaging>
     <artifactId>chapter2</artifactId>
     <version>1.0</version>
 
     <parent>
-        <artifactId>springboot-kafka-study</artifactId>
-        <groupId>hs.springboot.kafka.study</groupId>
+        <groupId>hs.springboot.kafka</groupId>
+        <artifactId>springboot-kafka-example</artifactId>
         <version>1.0</version>
     </parent>
 

@@ -5,10 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hs.springboot.kafka</groupId>
-    <artifactId>chapter1</artifactId>
+    <artifactId>operator</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-
+    <name>SB :: Kafka :: Operator</name>
+    <description>SB :: Kafka :: Operator</description>
     <parent>
         <groupId>hs.springboot.kafka</groupId>
         <artifactId>springboot-kafka-example</artifactId>
@@ -16,10 +17,9 @@
     </parent>
 
     <modules>
-        <module>clip1-1</module>
-        <module>clip1-2</module>
-        <module>clip1-3</module>
-        <module>clip1-4</module>
+        <module>topic-consumer</module>
+        <module>topic-list</module>
+        <module>topic-create</module>
     </modules>
 
     <properties>
