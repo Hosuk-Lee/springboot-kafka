@@ -5,44 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c6a872-50cb-49d8-bf8b-f105009a2254" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/operator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/src/main/java/sub/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/src/main/java/sub/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/src/main/java/sub/configuration/CunsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/src/main/java/sub/configuration/KafkaJsonListenerContainerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-consumer/src/main/java/sub/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-create/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-create/src/main/java/topiclist/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-create/src/main/java/topiclist/KafkaTopicConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-list/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-list/src/main/java/topiclist/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-list/src/main/java/topiclist/KafkaTopicConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/src/main/java/producer/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/src/main/java/producer/configuration/KafkaJsonTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/src/main/java/producer/configuration/KafkaTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/src/main/java/producer/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/topic-producer/src/main/java/producer/producer/ClipProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/pub-json/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/samp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/clip1-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/clip1-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/clip1-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/clip1-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/clip1-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/clip1-3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/clip1-4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/clip1-4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/clip2-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/clip2-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/clip2-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/clip2-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/clip2-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/clip2-3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/clip2-4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/clip2-4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "/Users/hosuk/hs/springboot-kafka",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
