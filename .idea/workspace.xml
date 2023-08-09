@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c6a872-50cb-49d8-bf8b-f105009a2254" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/java/hs/springboot/kafka/sub/json/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/java/hs/springboot/kafka/sub/json/config/KafkaCounsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/java/hs/springboot/kafka/sub/json/config/KafkaJsonTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/java/hs/springboot/kafka/sub/json/config/KafkaTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/java/hs/springboot/kafka/sub/json/consumer/HosukSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/sub-json/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/pub/json/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/pub/json/config/KafkaJsonTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/pub/json/config/KafkaTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/pub/json/config/KafkaTopicConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/pub/json/consumer/HosukPub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator/topic-list/src/main/java/topiclist/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/operator/topic-list/src/main/java/topiclist/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pub-json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pub-json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/samp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/hosuk/hs/springboot-kafka",
+    "last_opened_file_path": "/Users/hosuk/hs/springboot-kafka/consumer/sub-json/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -55,24 +74,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consumer/sub-json/src/main/resources" />
+      <recent name="$PROJECT_DIR$/consumer/sub-json/src/main/java" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/producer/pub-json/src/main/java/hs/springboot/kafka/config" />
       <recent name="C:\Users\hosuk\springboot-kafka-study\chapter2\clip2-4\src\main\java" />
-      <recent name="C:\Users\hosuk\springboot-kafka-study\chapter1\clip1-4\src\main\java" />
-      <recent name="$PROJECT_DIR$/chapter2/clip2-3/src/main/java" />
-      <recent name="$PROJECT_DIR$/chapter2/clip2-2/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="study.configuration" />
       <recent name="study.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Clip21Application">
-    <configuration name="Clip21Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Clip21Application" />
-      <module name="clip2-1" />
+  <component name="RunManager" selected="Application.hs.springboot.kafka.pub.json.Application (1)">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hs.springboot.kafka.Application" />
+      <module name="pub-json" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.configuration.*" />
+          <option name="PATTERN" value="hs.springboot.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clip24Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Clip24Application" />
-      <module name="clip2-4" />
+    <configuration name="hs.springboot.kafka.pub.json.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hs.springboot.kafka.pub.json.Application" />
+      <module name="pub-json" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="hs.springboot.kafka.sub.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="study.Clip13Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Clip13Application" />
-      <module name="clip1-3" />
+    <configuration name="hs.springboot.kafka.sub.json.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hs.springboot.kafka.sub.json.Application" />
+      <module name="sub-json" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="hs.springboot.kafka.sub.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="study.Clip22Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Clip22Application" />
-      <module name="clip2-2" />
+    <configuration name="hs.springboot.kafka.sub.json.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hs.springboot.kafka.sub.json.Application" />
+      <module name="sub-json" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="hs.springboot.kafka.sub.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="study.Clip23Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Clip23Application" />
-      <module name="clip2-3" />
+    <configuration name="topiclist.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="topiclist.Application" />
+      <module name="topic-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="topiclist.Application" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hs.springboot.kafka.pub.json.Application (1)" />
+        <item itemvalue="Application.hs.springboot.kafka.sub.json.Application" />
+        <item itemvalue="Application.hs.springboot.kafka.sub.json.Application" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.topiclist.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

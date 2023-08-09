@@ -13,6 +13,7 @@
   <modules>
     <module>operator</module>
     <module>producer</module>
+    <module>consumer</module>
   </modules>
 
   <profiles>

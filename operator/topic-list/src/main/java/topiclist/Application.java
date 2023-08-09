@@ -44,9 +44,9 @@ public class Application {
             Map<String, TopicDescription> topicDescriptionMap = adminClient.describeTopics(
                     Collections.singleton(topicName)).allTopicNames().get();
             System.out.println(topicDescriptionMap);
-/*
+
 //            adminClient.deleteTopics(Collections.singleton(topicName));
-*/
+
         }
 
         System.out.println("--------------------------------");
@@ -55,7 +55,7 @@ public class Application {
     private static void describeTopicConfigs(AdminClient adminClient) throws ExecutionException, InterruptedException {
 
         Collection<ConfigResource> resource = List.of(
-                new ConfigResource(ConfigResource.Type.TOPIC, "infra-sample")
+                new ConfigResource(ConfigResource.Type.TOPIC, "hosuk-test-1")
         );
         DescribeConfigsResult result = adminClient.describeConfigs(resource);
         System.out.println("---- 토픽의 정보 ----");
